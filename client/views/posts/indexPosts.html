@@ -1,0 +1,24 @@
+<template name="indexPosts">
+
+	{{#each posts}}
+		<div class="post-preview">
+		  <a href="post.html">
+		      <h2 class="post-title">
+		          {{title}}
+		      </h2>
+		      <h3 class="post-subtitle">
+		          {{subtitle}}
+		      </h3>
+		  </a>
+		  <p class="post-meta">Posted by <a href="#">Iuri Madeira</a> on {{createdAt}}</p>
+		</div>
+	  <hr>
+  {{/each}}
+           
+	<!-- Pager 
+	<ul class="pager">
+	    <li class="next">
+	        <a href="#">Older Posts &rarr;</a>
+	    </li>
+	</ul>-->
+</template>
