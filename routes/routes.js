@@ -20,6 +20,24 @@ Router.map(function () {
   	}
   });
 
+  // Portfolio
+  this.route('portfolio', {
+    path: "/portfolio",
+    template: "portfolio"
+  });
+
+  // About
+  this.route('about', {
+    path: "/about",
+    template: "about"
+  });
+
+  // Contact
+  this.route('contact', {
+    path: "/contact",
+    template: "contact"
+  });
+
 });
 
 Router.onAfterAction(function(){
