@@ -1,4 +1,4 @@
-Router.configure({ layoutTemplate: "mainLayout" });
+Router.configure({ layoutTemplate: "layout" });
 
 Router.map(function () {
 
